@@ -5,6 +5,7 @@
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px #381111;
+    border-radius: 5px;
     background-color: #a82f2f;
     font-family: Georgia, 'Times New Roman', Times, serif
   }
