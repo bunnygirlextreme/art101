@@ -34,3 +34,15 @@ h1 {
   border: solid 5px #4e1818;
   background-color: #742020;
 }
+.section-right {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 5px #4e1818;
+  background-color: #1d0808;
+  float: right;
+  color: #742020;
+  text-indent: 50px;
+}
+.bunnies {
+  float: right;
+}
