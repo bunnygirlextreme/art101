@@ -17,6 +17,8 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  text-indent: 475px;
+  color: #381111;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
