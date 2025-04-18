@@ -59,3 +59,8 @@ h1 {
 h3 {
   font-size: 35px;
 }
+#my-portrait {
+  width: 250px;
+  margin-left: 10px;
+  border: dashed;
+}
