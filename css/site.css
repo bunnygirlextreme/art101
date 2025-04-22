@@ -40,6 +40,12 @@ h1 {
   border: solid 5px #4e1818;
   background-color: #742020;
 }
+.top-section{
+  border: dashed 5px #4e1818;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+}
 .section-right {
   padding: 10px;
   margin-bottom: 10px;
@@ -66,4 +72,64 @@ h3 {
 #my-portrait {
   width: 250px;
   border: dashed 5px #4e1818
+}
+
+#vinyl-gallery * {
+  all: unset;
+}
+
+#vinyl-gallery {
+  all: initial!important;
+  width: 100%!important;
+  height: 230px!important;
+  margin: 30px 0!important;
+  display: flex!important;
+  flex-direction: row!important;
+  position: relative!important;
+  margin-left: -6px!important;
+}
+
+#vinyl-gallery .vinyl {
+    all:unset!important;
+  perspective: 500px !important;
+  width: 18px!important;
+  transition: width 0.5s!important;
+}
+
+#vinyl-gallery .vinyl:hover {
+  width: 148px!important;
+}
+
+#vinyl-gallery img {
+    all:unset!important;
+  transition: transform 0.5s, width 0.5s, height 0.5s, margin-top 0.5s!important;
+  width: 180px!important;
+  height: 180px!important;
+  transform: rotateX(0deg) rotateY(25deg)!important;
+  transform-style: preserve-3d!important;
+  border-radius: 4px!important;
+  border: 2px solid rgba(0, 0, 0, 0.1)!important;
+object-fit: cover!important;
+}
+
+#vinyl-gallery .vinyl:hover img {
+  transform: rotateX(0deg) rotateY(10deg)!important;
+  width: 188px!important;
+  height: 188px!important;
+  margin-top: -2px!important;
+}
+
+#vinyl-gallery .title {
+  color: #000000;
+  display: block;
+  visibility: hidden;
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  padding-left: 6px;
+}
+
+#vinyl-gallery .vinyl:nth-child(n):hover + .title {
+  visibility: visible;
 }
