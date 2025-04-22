@@ -46,6 +46,13 @@ h1 {
   margin: 10px;
   padding: 10px;
 }
+.blinkies{
+  border: dashed 5px #4e1818;
+  width: 420px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #1d0808;
+}
 .section-right {
   padding: 10px;
   margin-bottom: 10px;
