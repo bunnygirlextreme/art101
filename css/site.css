@@ -30,6 +30,10 @@ h1 {
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.major-section {
+  display: inline-flex;
+}
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
@@ -61,6 +65,5 @@ h3 {
 }
 #my-portrait {
   width: 250px;
-  margin-left: 10px;
-  border: dashed;
+  border: dashed 5px #4e1818
 }
