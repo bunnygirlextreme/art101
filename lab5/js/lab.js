@@ -24,12 +24,22 @@ main();
 // Ally Herro
 // 2025
 
-let carMake = "Volkswagen"
-let carModel = "Beetle"
-let carColor = "brown"
-let carYear = 2013
-let currentYear = 2025
-let ownIt = false
-let carAge = currentYear - carYear
+// Define variables
+let carMake = "Volkswagen";
+let carModel = "Beetle";
+let carColor = "brown";
+let carYear = 2013;
+let currentYear = 2025;
+let ownIt = false;
+let carAge = currentYear - carYear;
 
-console.log("Age: " + carAge)
+// Calculate
+console.log("Age: " + carAge);
+
+// Output
+document.writeln("Make: " + carMake + "<br>");
+document.writeln("Model: " + carModel + "<br>");
+document.writeln("Color: " + carColor + "<br>");
+document.writeln("Year: " + carYear + "<br>");
+document.writeln("Age: " + carAge + " years<br>");
+
