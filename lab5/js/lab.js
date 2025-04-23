@@ -19,3 +19,17 @@ function main() {
 
 // let's get this party started
 main();
+
+// JavaScript car program
+// Ally Herro
+// 2025
+
+let carMake = "Volkswagen"
+let carModel = "Beetle"
+let carColor = "brown"
+let carYear = 2013
+let currentYear = 2025
+let ownIt = false
+let carAge = currentYear - carYear
+
+console.log("Age: " + carAge)
