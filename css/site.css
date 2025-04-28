@@ -54,7 +54,7 @@ h1 {
   padding: 10px;
   background-color: #1d0808;
 }
-.section-right {
+.stamps {
   padding: 10px;
   margin-bottom: 10px;
   border: dashed 5px #4e1818;
@@ -62,6 +62,7 @@ h1 {
   float: right;
   color: #742020;
   text-indent: 50px;
+  width: 305px;
 }
 .bunnies {
   float: right;
