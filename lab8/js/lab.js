@@ -17,3 +17,6 @@ function yayCool(x){
   
   var mapResults = array.map(yayCool);
   console.log("Results: ", mapResults)
+
+  var mapResults = "map results here";
+  $("#output").html(mapResults);
