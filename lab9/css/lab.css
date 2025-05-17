@@ -1,0 +1,17 @@
+.special {
+    background-color: rgb(175, 96, 109);
+    color:rgb(61, 26, 26);
+    border: dashed 5px rgb(228, 240, 160);
+    font-weight: bold;
+}
+
+.minor-section {
+    padding: 10px;
+    border: dashed 5px #4e1818;
+    margin-bottom: 10px;
+    background-color: #742020;
+}
+
+body {
+    background-color: #381111;
+}
