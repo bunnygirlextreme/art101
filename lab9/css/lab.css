@@ -12,6 +12,13 @@
     background-color: #742020;
 }
 
+#challenge {
+        padding: 10px;
+    border: dashed 5px #4e1818;
+    margin-bottom: 10px;
+    background-color: #742020;
+}
+
 body {
-    background-color: #381111;
+    background-color: #381111
 }
