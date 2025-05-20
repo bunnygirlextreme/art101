@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .minor-section {
     padding: 10px;
     border: dashed 5px #4e1818;
@@ -6,6 +10,7 @@
 }
 h1 {
     font-size: 20px;
+    color: white;
 }
 
 #output {
@@ -13,4 +18,32 @@ h1 {
     border: dashed 5px #4e1818;
     margin-bottom: 10px;
     background-color: #742020;
+}
+
+.blue-lions {
+    padding: 10px;
+    border: dashed 5px whitesmoke;
+    background-color: rgb(88, 88, 173);
+    color: rgb(25, 25, 54);
+}
+
+.golden-deer {
+    padding: 10px;
+    border: dashed 5px rgb(70, 50, 32);
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 255, 165);
+}
+
+.black-eagles {
+    padding: 10px;
+    border: dashed 5px #200d0d;
+    background-color: #742020;
+    color: rgb(212, 190, 90); 
+}
+
+.ashen-wolves {
+    padding: 10px;
+    border: dashed 5px rgb(71, 66, 71);
+    background-color: rgb(82, 61, 90);
+    color: rgb(38, 21, 43);
 }
