@@ -15,4 +15,5 @@ body {
     border: dashed 5px #4e1818;
     margin-bottom: 10px;
     background-color: #742020;
+    display: inline-block;
 }
